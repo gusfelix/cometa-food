@@ -1,0 +1,39 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+nav{
+    background-color: #add8e6;
+    height: 80px;
+
+}
+
+main{
+    margin-top: 30px;               
+    /* background-color: red; */
+}
+
+.pratos{
+    margin: 30px 150px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card>img{
+    height: 205px;
+}
+
+.perfil{
+    margin-right: 20px;
+}
+
+.perfil>button{
+    width: 75px;
+    height: 50px;
+    border-radius: 9px ;
+    border: none;
+    background: none;
+}
+
